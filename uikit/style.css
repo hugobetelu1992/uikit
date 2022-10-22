@@ -42,3 +42,28 @@ h1{
     display: flex;
     align-items: center;
 }
+
+/* List properties */
+.list-group{
+    width: 400px;
+    height: auto;
+    border-color: #DFDFDF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.list-group-item{
+    width:auto;
+    height: 50px;
+    border: solid;
+    border-color: #81878e;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.list-group-item:first-child{
+    border-radius: 5px 5px 0px 0px;
+}
+.list-group-item:last-child{
+    border-radius: 0px 0px 5px 5px;
+}
